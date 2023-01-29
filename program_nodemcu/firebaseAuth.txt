@@ -1,3 +1,7 @@
+/* File koneksi ke firebase
+* diubah file .txt ke .ino
+*
+*/
 // Setting Firebase Database
 #define FIREBASE_URL "URL" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
 #define FIREBASE_AUTH "AUTH"
