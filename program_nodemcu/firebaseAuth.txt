@@ -1,0 +1,11 @@
+// Setting Firebase Database
+#define FIREBASE_URL "URL" //<databaseName>.firebaseio.com or <databaseName>.<region>.firebasedatabase.app
+#define FIREBASE_AUTH "AUTH"
+
+void firebase_connect() {
+  Firebase.begin(FIREBASE_URL, FIREBASE_AUTH);
+  Firebase.reconnectWiFi(true);
+  Firebase.setReadTimeout(firebaseData, 1000 * 60);
+
+}
+

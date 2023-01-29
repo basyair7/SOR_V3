@@ -1,0 +1,24 @@
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+OK. Send me a list of commands for your bot. Please use this format:
+
+command1 - Description
+command2 - Another description
+
+Send /empty to keep the list empty.
+
+''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+copy text dibawah ini dan kirim ke BotFather : 
+
+help - menampilkan list perintah bot
+menu - menampilkan list perintah bot
+botstatus - tampilkan informasi sistem server
+info - menampilkan informasi keadaan saklar listrik
+status - menampilkan informasi keadaan saklar listrik
+saklar1on - hidupkan saklar listrik 1
+saklar1off - mematikan saklar listrik 1
+saklar2on - hidupkan saklar listrik 2
+saklar2off - mematikan saklar listrik 2 
+allswitchon - hidupkan semua saklar
+allswitchoff - mematikan semua saklar
+getlink - kirim link SmartLamp Bot

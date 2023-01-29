@@ -1,0 +1,35 @@
+{
+  "name": "telegram-bot-smartlamp",
+  "version": "3.0.0",
+  "description": "mematikan dan menghidupkan arus listrik menggunakan aplikasi telegram bot",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basyair7/SOR_v3.0.git"
+  },
+  "keywords": [
+    "SOR"
+  ],
+  "author": "basyair7",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/basyair7/SOR_v3.0/issues"
+  },
+  "homepage": "https://github.com/basyair7/SOR_v3.0#readme",
+  "dependencies": {
+    "collections": "^5.1.13",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.5.0",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "luxon": "^3.2.1",
+    "node-telegram-bot-api": "^0.61.0",
+    "nodemon": "^2.0.20",
+    "os": "^0.1.2"
+  }
+}

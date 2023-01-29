@@ -1,0 +1,9 @@
+telegram-bot/node_modules/
+telegram-bot/.env
+telegram-bot/src/FirebaseDB/FirebaseKeys/https/index.json
+telegram-bot/src/FirebaseDB/FirebaseKeys/to/serviceAccount.json
+whatsapp-bot/node_modules/
+whatsapp-bot/src/FirebaseDB/firebaseKey/https/index.json
+whatsapp-bot/src/FirebaseDB/firebaseKey/to/serviceAccount.json
+whatsapp-bot/.wwebjs_auth
+program_nodemcu/firebaseAuth.ino
