@@ -4,19 +4,19 @@ const fs = require("fs");
 require("dotenv").config();
 const slashCommands = require("./utils/slashCommands");
 
-// make uptimebot server
-const express = require("express");
-const app = express();
+// // make uptimebot server
+// const express = require("express");
+// const app = express();
 
-let port = process.env.PORT || 3000;
+// let port = process.env.PORT || 3000;
 
-app.get("/", function (req, res){
-    res.send("Telegram-bot sudah online!");
-});
+// app.get("/", function (req, res){
+//     res.send("Telegram-bot sudah online!");
+// });
 
-app.listen(port, () => {
-    console.log(`Example app is listening on port http://localhost:${port}`);
-});
+// app.listen(port, () => {
+//     console.log(`Example app is listening on port http://localhost:${port}`);
+// });
 
 // mengambil token telegram bot
 const TOKEN = process.env.TOKEN;
