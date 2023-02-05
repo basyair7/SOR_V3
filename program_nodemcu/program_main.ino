@@ -1,3 +1,5 @@
+#define HIDUP LOW
+#define MATI HIGH
 // buat variable millis waktu sebelum diproses program
 unsigned long waktuSebelum = 0;
 
@@ -12,12 +14,12 @@ void program_relay(int pin, String path_relay, bool boolean_relay, int jedaWaktu
     Firebase.getBool(firebaseData, path_relay, &boolean_relay);
 
     if (boolean_relay == true) {
-      digitalWrite(pin, HIGH);
+      digitalWrite(pin, HIDUP);
       Serial.print(F("RELAY : "));
       Serial.print(pin);
       Serial.println(F(" - HIDUP"));
     } else {
-      digitalWrite(pin, LOW);
+      digitalWrite(pin, MATI);
       Serial.print(F("RELAY : "));
       Serial.print(pin);
       Serial.println(F(" - MATI"));
