@@ -47,7 +47,7 @@ async function Server(server) {
     });
 
     server.onText(/\/saklar2off/, async (msg) => {
-        await db.ref(ref['ref-2']).child("switch-1").set(true);
+        await db.ref(ref['ref-2']).child("switch-2").set(false);
         return server.sendMessage(msg.from.id, "Saklar 2 off : OK");
     });
 
